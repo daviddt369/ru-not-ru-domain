@@ -10,7 +10,9 @@ yandex.net
 yastatic.net
 yandex-bank.net
 yandex.cloud
+yandexcloud.net
 clstorage.net
+static-storage.net
 turbopages.org
 ya.cc
 meteum.ai
@@ -25,6 +27,7 @@ vk.link
 vk.team
 vk.video
 vkontakte.com
+mvk.com
 userapi.com
 vk-cdn.me
 vk-cdn.net
@@ -43,7 +46,11 @@ vkmessenger.com
 vkpay.app
 vkpay.com
 
-# ----- VK Group / Mail.ru ecosystem -----
+# ----- OK.ru / Mail.ru CDN -----
+mycdn.me
+ok.me
+
+# ----- VK Group ecosystem -----
 boosty.to
 donationalerts.com
 tamtam.chat
@@ -53,7 +60,6 @@ yclients.com
 mcs.st
 movika.com
 memealerts.com
-ok.me
 
 # ----- Sber -----
 sberbank.com
@@ -64,7 +70,21 @@ sbercloud.tech
 sberauto.com
 giga.chat
 jivo.chat
+jivochat.com
 jivochat.co.in
+jivosite.com
+eaptechka.online
+
+# ----- T-Bank (Tinkoff) -----
+etna.ai
+tbank-online.com
+t.finance
+t-finance.group
+t-tech.dev
+t-tech.team
+jump.taxi
+koshelek.app
+rosbank-credit.com
 
 # ----- Ozon -----
 ozon.com
@@ -77,6 +97,9 @@ ozonru.com
 wbstatic.net
 paywb.com
 wibes.com
+
+# ----- Avito -----
+avito.st
 
 # ----- 2GIS -----
 2gis.com
@@ -94,37 +117,81 @@ zvuk.com
 
 # ----- Banks -----
 alfa-bank.com
+alfabank.com
 alfa.me
 alfabank.st
+alfa-finance.com
+alfa-fx.com
 gazprombank.com
 gazprombank.investments
+gazprombank.tech
 vtb-direct.com
 tochka.com
+tochka-tech.com
 bank131.com
 korona.com
 moex.com
+dbo-dengi.online
+sistema-capital.com
+
+# ----- Medicine / Health -----
+medsi.com
+medsi.pro
+emias.info
+
+# ----- Weather / Navigation -----
+gismeteo.com
+gismeteo.net
+gismeteo.st
+meteofor.com
+meteofor.st
+
+# ----- Food delivery / Restaurants -----
+dodopizza.com
+dodostatic.net
+dodois.com
+dodois.io
+edadeal.io
+
+# ----- Retail -----
+fix-price.com
+lenta.com
+lenta.tech
+magnit.com
+perekrestok.com
+x5static.net
+sokolov.io
+
+# ----- Transport / Travel -----
+pobeda.aero
+aviasales.com
+avs.io
+whoosh.bike
+jump.taxi
+taxsee.com
+bronevik.com
 
 # ----- Media / News -----
 rt.com
 russiatoday.com
 mir24.tv
 
-# ----- Aviation -----
-pobeda.aero
-aviasales.com
-avs.io
-
-# ----- Antivirus -----
+# ----- Antivirus / Security -----
 kaspersky.com
 kaspersky-labs.com
 
-# ----- IT / SaaS / Hosting -----
+# ----- Education -----
+sky.pro
+1cfresh.com
+
+# ----- IT / Business / SaaS -----
 habr.com
 habrastorage.org
-1cfresh.com
+bitrix24.com
 myoffice.team
 kontur.host
 kontur-inc.com
+ideco.dev
 selectel.com
 selectel.io
 selcdn.net
@@ -135,7 +202,10 @@ beget.com
 tildacdn.com
 tilda.cc
 
-# ----- Retail -----
-magnit.com
-perekrestok.com
-x5static.net
+# ----- Telecom -----
+megafon.com
+mts-ws.net
+
+# ----- Gaming -----
+gaijin.net
+my.games
