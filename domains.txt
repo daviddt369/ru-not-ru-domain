@@ -1,0 +1,141 @@
+# Russian services using non-.ru / .su / .рф TLDs
+# Use as suffix rules in xray/sing-box routing to keep RU traffic on RU node
+# Sources: hxehex/russia-mobile-internet-whitelist, Khfdd/geosite-russia-whitelist-minimal,
+#          chebur-net/russia-mobile-whitelist (real Moscow/SPb network captures)
+# Updated: 2026-05-23
+
+# ----- Yandex -----
+yandex.com
+yandex.net
+yastatic.net
+yandex-bank.net
+yandex.cloud
+clstorage.net
+turbopages.org
+ya.cc
+meteum.ai
+shedevrum.ai
+naydex.net
+
+# ----- VK (VKontakte) -----
+vk.com
+vk.me
+vk.cc
+vk.link
+vk.team
+vk.video
+vkontakte.com
+userapi.com
+vk-cdn.me
+vk-cdn.net
+vk-portal.net
+vkcache.com
+vkcdnservice.com
+vkuser.net
+vkuseraudio.com
+vkuseraudio.net
+vkuservideo.com
+vkuservideo.net
+vkuserlive.com
+vkuserlive.net
+vkmessenger.app
+vkmessenger.com
+vkpay.app
+vkpay.com
+
+# ----- VK Group / Mail.ru ecosystem -----
+boosty.to
+donationalerts.com
+tamtam.chat
+vk-apps.com
+vkcs.cloud
+yclients.com
+mcs.st
+movika.com
+memealerts.com
+ok.me
+
+# ----- Sber -----
+sberbank.com
+id.ru
+cloud.ru
+megamarket.tech
+sbercloud.tech
+sberauto.com
+giga.chat
+jivo.chat
+jivochat.co.in
+
+# ----- Ozon -----
+ozon.com
+ozon.tech
+ozon.travel
+ozonusercontent.com
+ozonru.com
+
+# ----- Wildberries -----
+wbstatic.net
+paywb.com
+wibes.com
+
+# ----- 2GIS -----
+2gis.com
+2gis.tech
+
+# ----- Streaming / TV -----
+okko.tv
+okko.sport
+more.tv
+premier.one
+smotreshka.tv
+beeline.tv
+kinorium.com
+zvuk.com
+
+# ----- Banks -----
+alfa-bank.com
+alfa.me
+alfabank.st
+gazprombank.com
+gazprombank.investments
+vtb-direct.com
+tochka.com
+bank131.com
+korona.com
+moex.com
+
+# ----- Media / News -----
+rt.com
+russiatoday.com
+mir24.tv
+
+# ----- Aviation -----
+pobeda.aero
+aviasales.com
+avs.io
+
+# ----- Antivirus -----
+kaspersky.com
+kaspersky-labs.com
+
+# ----- IT / SaaS / Hosting -----
+habr.com
+habrastorage.org
+1cfresh.com
+myoffice.team
+kontur.host
+kontur-inc.com
+selectel.com
+selectel.io
+selcdn.net
+servercore.com
+timeweb.com
+timeweb.cloud
+beget.com
+tildacdn.com
+tilda.cc
+
+# ----- Retail -----
+magnit.com
+perekrestok.com
+x5static.net
