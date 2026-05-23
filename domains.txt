@@ -205,7 +205,88 @@ tilda.cc
 # ----- Telecom -----
 megafon.com
 mts-ws.net
+tvoyodbo.online
 
 # ----- Gaming -----
 gaijin.net
 my.games
+
+# ----- Large corporations -----
+nornickel.com
+rosneft.com
+1c.com
+
+# ----- Video conferencing -----
+trueconf.com
+
+# ----- Cloud / Hosting -----
+t1.cloud
+
+# ----- Media / TV -----
+ctc.media
+soloviev.live
+
+# ----- Bookmakers -----
+fon.bet
+fon.promo
+mobile-bb.com
+
+# ----- Luxury / Fashion -----
+oskelly.co
+
+# ----- Antivirus community -----
+comss.one
+comss.online
+comss.org
+comss.net
+comss.info
+comss.me
+comss.news
+comss.club
+
+# ----- Cybersecurity (Group-IB / F6 / Facct) -----
+f6.dev
+f6.security
+facct.email
+cert-gib.com
+gib-global.com
+gibdev.net
+cybercrimecon.com
+
+# ----- B2B SaaS (Russian CRM / marketing tools) -----
+carrottrack.app
+carrot-mail.io
+carrotquest-mail.io
+mail-carrotquest.io
+dashly.app
+dashly.io
+dashly.me
+dashly.help
+dashlytrack.app
+mindbox.cloud
+mindbox.group
+mindbox.site
+mindbox.so
+botmechanic.io
+popmechanic.io
+pushgrow.io
+envybox.company
+envybox.family
+envycdp.com
+envycrm.com
+callbackkiller.com
+
+# ----- Genetics / Medicine -----
+genotek.health
+eligens.io
+smartmed.pro
+
+# ----- Volunteer / Social -----
+lizaalert.org
+
+# ----- Yandex Metrica (standalone domain) -----
+yandexmetrica.com
+
+# ----- RU zones (.com / .net) -----
+ru.com
+ru.net
