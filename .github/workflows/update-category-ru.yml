@@ -1,0 +1,40 @@
+name: Update category-ru from roscomvpn-geosite
+
+on:
+  schedule:
+    - cron: '0 4 * * *'   # daily at 04:00 UTC
+  workflow_dispatch:        # manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Extract category-ru domains
+        run: python3 extract_category_ru.py
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git diff --quiet roscomvpn-whitelist-all.txt roscomvpn-whitelist-nontld.txt \
+            && echo "changed=false" >> "$GITHUB_OUTPUT" \
+            || echo "changed=true"  >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push if changed
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add roscomvpn-whitelist-all.txt roscomvpn-whitelist-nontld.txt
+          git commit -m "chore: update roscomvpn whitelist $(date -u +%Y-%m-%d)"
+          git push
