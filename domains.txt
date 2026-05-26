@@ -18,6 +18,29 @@ ya.cc
 meteum.ai
 shedevrum.ai
 naydex.net
+yandex.st
+yastat.net
+yandexcom.net
+yandexadexchange.net
+yandexwebcache.net
+yandexwebcache.org
+webvisor.com
+webvisor.org
+yandex.by
+yandex.kz
+yandex.az
+yandex.ua
+yandex.com.tr
+yandex.com.am
+yandex.com.ge
+yandex.de
+yandex.fr
+yandex.eu
+yandex.md
+yandex.tj
+yandex.tm
+yandex.uz
+yandex.kg
 
 # ----- VK (VKontakte) -----
 vk.com
@@ -60,6 +83,10 @@ yclients.com
 mcs.st
 movika.com
 memealerts.com
+vk.company
+vk.design
+vkgo.app
+vklive.app
 
 # ----- Sber -----
 sberbank.com
@@ -68,6 +95,8 @@ cloud.ru
 megamarket.tech
 sbercloud.tech
 sberauto.com
+sber.world
+sber.ws
 giga.chat
 jivo.chat
 jivochat.com
@@ -104,6 +133,14 @@ avito.st
 # ----- 2GIS -----
 2gis.com
 2gis.tech
+2gis.by
+2gis.kz
+2gis.am
+2gis.az
+2gis.ge
+2gis.kg
+2gis.tj
+2gis.uz
 
 # ----- Streaming / TV -----
 okko.tv
@@ -114,6 +151,10 @@ smotreshka.tv
 beeline.tv
 kinorium.com
 zvuk.com
+kinescope.io
+kinescopecdn.net
+trbcdn.net
+1internet.tv
 
 # ----- Banks -----
 alfa-bank.com
@@ -122,10 +163,18 @@ alfa.me
 alfabank.st
 alfa-finance.com
 alfa-fx.com
+alfafx.com
+alfafuture.com
+alfaprivate.com
+investalfabank.com
 gazprombank.com
 gazprombank.investments
 gazprombank.tech
 vtb-direct.com
+vtb.com
+vtb24.com
+vtbcareer.com
+vtbglobalperspectives.com
 tochka.com
 tochka-tech.com
 bank131.com
@@ -152,6 +201,7 @@ dodostatic.net
 dodois.com
 dodois.io
 edadeal.io
+youla.io
 
 # ----- Retail -----
 fix-price.com
@@ -160,6 +210,10 @@ lenta.tech
 magnit.com
 perekrestok.com
 x5static.net
+x5.tech
+chizhik.club
+okolo.app
+5post.market
 sokolov.io
 
 # ----- Transport / Travel -----
@@ -183,6 +237,8 @@ kaspersky-labs.com
 # ----- Education -----
 sky.pro
 1cfresh.com
+mangalib.me
+animego.me
 
 # ----- IT / Business / SaaS -----
 habr.com
