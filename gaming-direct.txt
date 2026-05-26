@@ -1,0 +1,81 @@
+# Gaming platforms and software updates — direct routing
+# These services are accessible from Russia without VPN.
+# Routing direct gives lower latency for gaming and faster update downloads.
+# Add as Rule Source: external_url, domain family, policy: direct_ru
+#
+# Source: https://github.com/hydraponique/roscomvpn-geosite (whitelist/gaming categories)
+# Updated: 2026-05-26
+
+# ----- Steam -----
+steampowered.com
+steamcommunity.com
+steamcontent.com
+steamgames.com
+steamstatic.com
+steamuserimages-a.akamaihd.net
+steamserver.net
+steamdeck.com
+steam-chat.com
+steam.tv
+valvesoftware.com
+underlords.com
+playartifact.com
+
+# ----- Escape from Tarkov (Battlestate Games — Russian studio) -----
+escapefromtarkov.com
+tarkov.com
+eft-store.com
+
+# ----- FACEIT -----
+faceit.com
+faceit-cdn.net
+
+# ----- Epic Games -----
+epicgames.com
+epicgames.dev
+epicgamescdn.com
+unrealengine.com
+unrealtournament.com
+easyanticheat.net
+easy.ac
+eac-cdn.com
+fortnite.com
+artstation.com
+fab.com
+quixel.com
+sketchfab.com
+
+# ----- Riot Games -----
+riotgames.com
+riotcdn.net
+leagueoflegends.com
+lolesports.com
+lolstatic.com
+lolusercontent.com
+playvalorant.com
+pvp.net
+rgpub.io
+rstatic.net
+
+# ----- Microsoft (updates, OneDrive, Xbox) -----
+windowsupdate.com
+update.microsoft.com
+download.microsoft.com
+onedrive.com
+onedrive.live.com
+storage.live.com
+livefilestore.com
+xboxgamepass.com
+xboxservices.com
+xbox.com
+gamepass.com
+
+# ----- Apple (updates, iCloud sync) -----
+icloud.com
+swdownload.apple.com
+swdist.apple.com
+swcdn.apple.com
+appldnld.apple.com
+osrecovery.apple.com
+updates.cdn-apple.com
+ocsp.apple.com
