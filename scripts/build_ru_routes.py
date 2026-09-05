@@ -187,12 +187,16 @@ def main():
 
     geosite_json = {"version": 1, "rules": [domain_rule]}
     geoip_json = {"version": 1, "rules": [{"ip_cidr": networks}]}
+    geoip_v4_json = {"version": 1, "rules": [{"ip_cidr": ipv4}]}
+    geoip_v6_json = {"version": 1, "rules": [{"ip_cidr": ipv6}]}
     all_json = {"version": 1, "rules": [domain_rule, {"ip_cidr": networks}]}
 
     OUT.mkdir(parents=True, exist_ok=True)
     for name, obj in [
         ("ru-geosite.json", geosite_json),
         ("ru-geoip.json", geoip_json),
+        ("ru-geoip-v4.json", geoip_v4_json),
+        ("ru-geoip-v6.json", geoip_v6_json),
         ("ru-all.json", all_json),
     ]:
         (OUT / name).write_text(
