@@ -1,0 +1,22 @@
+# Forced through RU outbound even when infrastructure/IP is outside Russia.
+# One domain suffix per line.
+max.ru
+oneme.ru
+okcdn.ru
+mycdn.me
+vkuser.net
+vk-cdn.net
+cdn-max.ru
+apptracer.ru
+vk-analytics.ru
+tracker.my.com
+ok.ru
+odnoklassniki.ru
+mail.ru
+tamtam.chat
+trace-flow.ru
+api.ipify.org
+ifconfig.me
+checkip.amazonaws.com
+ipv4-internet.yandex.net
+ipv6-internet.yandex.net
