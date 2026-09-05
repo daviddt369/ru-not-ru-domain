@@ -1,0 +1,21 @@
+{
+  "route": {
+    "rules": [
+      {
+        "rule_set": "ru-all",
+        "action": "route",
+        "outbound": "RU"
+      }
+    ],
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "ru-all",
+        "format": "source",
+        "url": "https://raw.githubusercontent.com/daviddt369/ru-not-ru-domain/main/rule-set/ru-all.json",
+        "update_interval": "24h"
+      }
+    ],
+    "final": "HE"
+  }
+}
