@@ -1,46 +1,118 @@
 # ru-not-ru-domain
 
-Список российских сервисов, использующих домены **не в зоне .ru / .su / .рф**.
+RU routing data for HE -> RU split routing.
 
-Нужен для маршрутизации — когда правила по TLD не покрывают CDN и инфраструктуру крупных российских сервисов.
+Схема:
 
-## Использование
+- российские домены и российские IP/CIDR -> outbound `RU`
+- принудительные override-домены из `extra-direct-ru.txt` -> outbound `RU`
+- всё остальное -> остаётся на `HE`
 
-### xray / sing-box (suffix правила)
+## Основной rule-set для sing-box
 
-Каждый домен из `domains.txt` добавляется как `suffix:`:
+Подключай один файл:
 
-```
-suffix:yandex.net
-suffix:vk.com
-suffix:userapi.com
-...
-```
-
-### Прямая ссылка для автозагрузки
-
-```
-https://raw.githubusercontent.com/daviddt369/ru-not-ru-domain/main/domains.txt
+```text
+https://raw.githubusercontent.com/daviddt369/ru-not-ru-domain/main/rule-set/ru-all.json
 ```
 
-## Что включено
+Формат - sing-box source rule-set.
 
-| Категория | Примеры |
-|-----------|---------|
-| Яндекс | yandex.net, yastatic.net, yandex.cloud |
-| VK Group | vk.com, userapi.com, vkuservideo.net, boosty.to |
-| Сбер | sberbank.com, cloud.ru, giga.chat |
-| Ozon | ozonusercontent.com, ozon.tech |
-| Wildberries | wbstatic.net |
-| 2ГИС | 2gis.com |
-| Банки | alfa-bank.com, moex.com, tochka.com |
-| Стриминг | okko.tv, more.tv, premier.one, zvuk.com |
-| Авиа | pobeda.aero, aviasales.com |
-| IT/Хостинг | beget.com, timeweb.com, selcdn.net, habr.com |
-| Антивирусы | kaspersky.com |
+Пример на HE-ноде:
 
-## Источники
+```json
+{
+  "route": {
+    "rules": [
+      {
+        "rule_set": "ru-all",
+        "action": "route",
+        "outbound": "RU"
+      }
+    ],
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "ru-all",
+        "format": "source",
+        "url": "https://raw.githubusercontent.com/daviddt369/ru-not-ru-domain/main/rule-set/ru-all.json",
+        "update_interval": "24h"
+      }
+    ],
+    "final": "HE"
+  }
+}
+```
 
-- [hxehex/russia-mobile-internet-whitelist](https://github.com/hxehex/russia-mobile-internet-whitelist) — реальные перехваты мобильных сетей
-- [Khfdd/geosite-russia-whitelist-minimal](https://github.com/Khfdd/geosite-russia-whitelist-minimal) — категоризированный список для xray/sing-box
-- [chebur-net/russia-mobile-whitelist](https://github.com/chebur-net/russia-mobile-whitelist) — перехват реальных сетей Москва/СПб
+`RU` и `HE` - это теги outbound в конкретном конфиге. Если у тебя они называются иначе, меняются только эти значения.
+
+RU-правило должно находиться выше общего HE/default правила.
+
+## Что входит
+
+Данные автоматически собираются из:
+
+```text
+https://redirect.alpaca-community.com/geo/geosite.dat
+https://redirect.alpaca-community.com/geo/geoip.dat
+```
+
+Из `geosite.dat` берутся все теги `*-RU`, включая `CATEGORY-RU`, `TLD-RU`, банки, государственные ресурсы, СМИ, e-commerce и другие российские категории.
+
+Из `geoip.dat` берётся страна `RU` целиком - IPv4 и IPv6 CIDR.
+
+Дополнительно `extra-direct-ru.txt` содержит домены, которые нужно принудительно отправлять через RU, даже если их инфраструктура/IP находится за пределами РФ.
+
+Сейчас туда входят MAX/VK/Mail/OK и IP-check endpoints, включая:
+
+```text
+max.ru
+oneme.ru
+okcdn.ru
+mycdn.me
+vkuser.net
+vk-cdn.net
+cdn-max.ru
+apptracer.ru
+vk-analytics.ru
+tracker.my.com
+ok.ru
+odnoklassniki.ru
+mail.ru
+tamtam.chat
+trace-flow.ru
+api.ipify.org
+ifconfig.me
+checkip.amazonaws.com
+ipv4-internet.yandex.net
+ipv6-internet.yandex.net
+```
+
+## Отдельные файлы
+
+```text
+rule-set/ru-all.json
+rule-set/ru-geosite.json
+rule-set/ru-geoip.json
+rules/ru-domain-suffix.txt
+rules/ru-domain-exact.txt
+rules/ru-domain-keyword.txt
+rules/ru-domain-regex.txt
+rules/ru-ipv4.txt
+rules/ru-ipv6.txt
+rules/ru-tags.txt
+```
+
+`ru-all.json` - основной вариант. В нём одновременно доменные правила и RU CIDR.
+
+## Автообновление
+
+GitHub Actions ежедневно скачивает свежие Alpaca `geosite.dat` и `geoip.dat`, пересобирает rule-set и коммитит изменения только если данные реально изменились.
+
+Скрипт сборки:
+
+```text
+scripts/build_ru_routes.py
+```
+
+Старые `domains.txt` и `roscomvpn-*` оставлены как legacy и в основной HE -> RU схеме не нужны.
