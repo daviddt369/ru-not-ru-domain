@@ -1,4 +1,4 @@
-# RU domain suffixes; source Alpaca geosite + overrides; entries=1538
+# RU domain suffixes; source Alpaca geosite + overrides; entries=1539
 1917live.red
 1prime.ru
 21-school.ru
@@ -1058,6 +1058,7 @@ slc.tl
 smailru.net
 smartmed.pro
 smbcr-bank.ru
+smena.cafe
 smolensk.ru
 smotreshka.tv
 sn-esp.site
