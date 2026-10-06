@@ -1,7 +1,7 @@
 # roscomvpn whitelist — non-.ru/.su/.рф domains only
 # Add as Rule Source (direct_ru) in panel to route Russian CDN/service domains via RU node
 # Source: https://github.com/hydraponique/roscomvpn-geosite
-# Entries: 191
+# Entries: 192
 1cfresh.com
 1internet.tv
 2gis.ae
@@ -34,6 +34,7 @@ alformacap.com
 alformacapital.com
 animego.me
 anytimeru.com
+api.sypexgeo.net
 autobahn.db.com
 avito.st
 bank131.com

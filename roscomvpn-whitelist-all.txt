@@ -1,6 +1,6 @@
 # roscomvpn whitelist+category-ru — all domains
 # Source: https://github.com/hydraponique/roscomvpn-geosite
-# Entries: 512
+# Entries: 513
 1c-bitrix.ru
 1c.ru
 1cfresh.com
@@ -54,6 +54,7 @@ amur.ru
 animego.me
 ankb.ru
 anytimeru.com
+api.sypexgeo.net
 arkhangelsk.ru
 asia-pay.ru
 astrakhan.ru
