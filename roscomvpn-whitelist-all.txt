@@ -1,6 +1,6 @@
 # roscomvpn whitelist+category-ru — all domains
 # Source: https://github.com/hydraponique/roscomvpn-geosite
-# Entries: 513
+# Entries: 517
 1c-bitrix.ru
 1c.ru
 1cfresh.com
@@ -55,12 +55,14 @@ animego.me
 ankb.ru
 anytimeru.com
 api.sypexgeo.net
+appstorrent.ru
 arkhangelsk.ru
 asia-pay.ru
 astrakhan.ru
 auth-nsdi.ru
 auto.ru
 autobahn.db.com
+autowp.ru
 av.ru
 avito.ru
 avito.st
@@ -201,6 +203,7 @@ kuban.ru
 kuper.ru
 kurgan.ru
 kursk.ru
+lava.ru
 lead-pro2023.online
 lemanapro.ru
 lenta.com
@@ -514,3 +517,4 @@ zdrav10.ru
 zenit-card.ru
 zentotem.net
 ziraatbank.ru
+zr.ru
