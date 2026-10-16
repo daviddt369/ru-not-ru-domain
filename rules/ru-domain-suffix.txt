@@ -1,8 +1,21 @@
-# RU domain suffixes; source Alpaca geosite + overrides; entries=1601
+# RU domain suffixes; source Alpaca geosite + overrides; entries=1639
 1917live.red
 1prime.ru
 24h.tv
+2gis.ae
+2gis.am
+2gis.az
+2gis.by
+2gis.com
+2gis.com.cy
+2gis.cz
+2gis.ge
+2gis.kg
+2gis.kz
 2gis.ru
+2gis.tech
+2gis.tj
+2gis.uz
 2w.ru
 3dnews.ru
 3ebra.net
@@ -15,6 +28,7 @@ a.mts.ru
 abonementx5.ru
 abr.ru
 absolutbank.ru
+accesspoint.uz
 acmvid.com
 actualidad-rt.com
 ad.mail.ru
@@ -200,6 +214,7 @@ cikrf.ru
 citilink.ru
 clck.yandex.ru
 clickstream.sberbank.ru
+cloudru.cn
 clstorage.net
 clubx5.ru
 cm.expert
@@ -303,6 +318,7 @@ eadaily.info
 eadaily.net
 eadaily.org
 eadaily.su
+eaptechka.online
 ebs.ru
 edu-74.ru
 edu.ru
@@ -393,6 +409,7 @@ genotek.health
 genotek.ru
 geobasket.ru
 gerwin.io
+getsynapse.io
 gib-global.com
 gib.sg
 gibdev.net
@@ -524,6 +541,18 @@ jar.ru
 jfn.su
 jinrieluosi.cn
 jira-tcsbank.ru
+jivo.chat
+jivochat.co.in
+jivochat.co.za
+jivochat.com
+jivochat.com.br
+jivochat.com.co
+jivochat.com.pe
+jivochat.com.tr
+jivochat.de
+jivochat.es
+jivochat.ng
+jivosite.com
 jpmorgan.ru
 jump.taxi
 jumpwork.ru
@@ -648,6 +677,7 @@ medsi.com
 medsi.pro
 medsi.ru
 megafon.com
+megamarket.tech
 megapteka.ru
 mel.fm
 melfm.ru
@@ -727,6 +757,7 @@ nalchik.ru
 nalog.ru
 nationalclearingcentre.ru
 naydex.net
+neon.click
 netcraze.club
 netcraze.link
 netcraze.pro
@@ -1032,9 +1063,14 @@ samara.ru
 saratov.ru
 sayeasy.eu
 sber-bank.by
+sber.pro
 sber.ru
+sberauto.com
+sberbank-tele.com
 sberbank.com
 sberbank.ru
+sbercloud.tech
+sbermarketing.ru
 sberspasibo.ru
 sbibankllc.ru
 sbpvtb.ru
@@ -1600,3 +1636,5 @@ zenit-card.ru
 zenit.ru
 ziraatbank.ru
 zub.ru
+zvuk-b2b.com
+zvuk.com
