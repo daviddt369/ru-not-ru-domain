@@ -1,4 +1,4 @@
-# RU domain suffixes; source Alpaca geosite + overrides; entries=1649
+# RU domain suffixes; source Alpaca geosite + overrides; entries=1676
 1917live.red
 1prime.ru
 24h.tv
@@ -68,6 +68,7 @@ altai.ru
 altaiobr04.ru
 amediateka.ru
 amic.ru
+amt-insurance.com
 amur.ru
 an.yandex.ru
 analytics.vk.com
@@ -118,6 +119,7 @@ avito.st
 avs.io
 avto.ru
 avtovokzaly.ru
+azbyka.ru
 b17.ru
 b2c-digest.ru
 b37mrtl.ru
@@ -157,6 +159,13 @@ best2pay.net
 betboom.ru
 bfa.ru
 bir.ru
+bitrix.info
+bitrix24.com
+bitrix24.net
+bitrix24.tech
+bitrix24public.com
+bitrixphone.com
+bitrixsoft.com
 bizmrg.com
 bk6bba-resources.com
 bk6bba-resources.ru
@@ -200,6 +209,7 @@ cdnvideohub.com
 centraluniversity.ru
 centrinvest.ru
 cert-gib.com
+chat2desk.com
 checkip.amazonaws.com
 chel.ru
 chelindbank.ru
@@ -464,6 +474,7 @@ hh.by
 hh.kz
 home.bank
 homecredit.ru
+hse.ru
 hva.im
 i-ola.ru
 ibamoscow.ru
@@ -560,6 +571,7 @@ jivochat.de
 jivochat.es
 jivochat.ng
 jivosite.com
+joyreactor.cc
 jpmorgan.ru
 jump.taxi
 jumpwork.ru
@@ -639,11 +651,13 @@ koronapay.com
 koshelek.app
 koshelev-bank.ru
 kostroma.ru
+kp.yandex.net
 krasnodar.su
 krasnoeibeloe.ru
 krasnoyarsk.ru
 kremlin.ru
 kremlinbank.ru
+ktalk.host
 ktech.team
 kuban.ru
 kubankredit.ru
@@ -654,6 +668,7 @@ lamoda.ru
 lanta.ru
 lenta.com
 lenta.tech
+lexgarant.com
 lifestyle-tec.ru
 ligadobra.ru
 ligastavok-csr.ru
@@ -729,6 +744,7 @@ moscow
 mosgorzdrav.ru
 mosmetro.ru
 mosmetro.tech
+mospat.ru
 mosreg.ru
 movika.com
 mp.world
@@ -738,6 +754,7 @@ ms.dzen.ru
 ms.vk.com
 ms.vk.ru
 mspbank.ru
+mts-link.ru
 mts-ws.net
 mts.ru
 mtsbank.ru
@@ -876,6 +893,7 @@ ozonru.me
 ozonsport.ru
 ozonstatus.ru
 ozonusercontent.com
+patriarchia.ru
 payment.ru
 paywb.com
 paywb.ru
@@ -897,8 +915,12 @@ poidem.ru
 polyclinika.ru
 polza.ai
 popmechanic.io
+posledovania.ru
 poudobnee.com
 pravilno-pishem.ru
+pravmir.com
+pravmir.ru
+pravoslavie.ru
 premier.one
 premiumlive.site
 pressria.ru
@@ -945,9 +967,11 @@ reaviz.ru
 reg.cloud
 reg.com
 regard.ru
+regionvideo.ru
 relap.mail.ru
 rencapbank.ru
 rencredit.ru
+renins.com
 reso-med.com
 reso-med.ru
 resocreditbank.ru
@@ -960,6 +984,7 @@ rncb.ru
 rncoluminis.ru
 rnd.ru
 ro-edu.ru
+robohall.tech
 robotext.io
 rocketozon.by
 roistat.com
@@ -1431,6 +1456,7 @@ wbstatic.ru
 wbtek.ru
 wbwh.ru
 wbwh.tech
+webtypikon.ru
 webvisor.com
 webvisor.org
 weildberries.ru
@@ -1526,6 +1552,7 @@ xn--80aafgovrgbc7am.xn--p1ai
 xn--80acbjgmges7ca.xn--p1ai
 xn--80acbjgsdq2cl.xn--p1ai
 xn--80acgfbsl1azdqr.xn--p1ai
+xn--80adfddrquddgz.xn--p1ai
 xn--80adxhks
 xn--80aglfyfk.xn--p1ai
 xn--80aglzei.xn--p1ai
