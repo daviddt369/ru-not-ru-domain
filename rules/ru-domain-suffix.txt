@@ -1,4 +1,4 @@
-# RU domain suffixes; source Alpaca geosite + overrides; entries=1676
+# RU domain suffixes; source Alpaca geosite + overrides; entries=1691
 1917live.red
 1prime.ru
 24h.tv
@@ -114,8 +114,10 @@ avangard.ru
 aversbank.ru
 aviasales.com
 aviasales.ru
+avito.com
 avito.ru
 avito.st
+avito.tech
 avs.io
 avto.ru
 avtovokzaly.ru
@@ -470,6 +472,9 @@ haicomdc.com
 halvacard.ru
 hardware.ru
 hayya.ae
+hello-doc.ru
+hellodoc.app
+hellodoc.ru
 hh.by
 hh.kz
 home.bank
@@ -694,10 +699,15 @@ mc.yandex.ru
 mcbank.ru
 mcc250.pub.3gppnetwork.org
 mcs.st
+medflex.ru
+medlock.ru
+medrocket.me
+medrocket.ru
 medsi-premium.ru
 medsi.com
 medsi.pro
 medsi.ru
+medtochka.ru
 megafon.com
 megamarket.tech
 megapteka.ru
@@ -929,10 +939,13 @@ primbank.ru
 priobye.ru
 priovtb.com
 private-banking.ru
+probolezny.ru
 prod-my.games
 prodcontest.com
+prodoctorov.ru
 prodota.ru
 promodj.com
+protabletky.ru
 prvbank.ru
 psb-ocenka.ru
 psb.ru
@@ -1248,6 +1261,8 @@ tehnodom.com
 tele2.ru
 telega.info
 telega.me
+terratraf.com
+terratraf.io
 thbank.ru
 tilda.cc
 tilda.ws
