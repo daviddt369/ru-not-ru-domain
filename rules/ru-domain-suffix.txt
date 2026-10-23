@@ -1,4 +1,4 @@
-# RU domain suffixes; source Alpaca geosite + overrides; entries=1691
+# RU domain suffixes; source Alpaca geosite + overrides; entries=1694
 1917live.red
 1prime.ru
 24h.tv
@@ -325,6 +325,9 @@ drweb.com
 drweb.fr
 drweb.kz
 drweb.uz
+ds-servers.com
+dsn.host
+dsncdn.net
 dtf.ru
 durovscode.com
 dvbank.ru
