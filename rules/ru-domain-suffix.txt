@@ -1,4 +1,4 @@
-# RU domain suffixes; source Alpaca geosite + overrides; entries=1694
+# RU domain suffixes; source Alpaca geosite + overrides; entries=1695
 1917live.red
 1prime.ru
 24h.tv
@@ -550,6 +550,7 @@ it-territory.com
 itb.ru
 ivanovo.ru
 ivi.ru
+ivi.tv
 ivicdn.tv
 ixbt.com
 ixbt.games
