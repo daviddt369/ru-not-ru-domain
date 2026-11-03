@@ -1,4 +1,4 @@
-# RU domain suffixes; source Alpaca geosite + overrides; entries=1695
+# RU domain suffixes; source Alpaca geosite + overrides; entries=1696
 1917live.red
 1prime.ru
 24h.tv
@@ -1686,6 +1686,7 @@ youla.io
 yourgood.app
 yuzhno-sakhalinsk.ru
 zabedu.ru
+zapishu.me
 zdrav10.ru
 zdravcity.ru
 zenit-card.ru
