@@ -1,4 +1,4 @@
-# RU domain suffixes; source Alpaca geosite + overrides; entries=1696
+# RU domain suffixes; source Alpaca geosite + overrides; entries=1697
 1917live.red
 1prime.ru
 24h.tv
@@ -152,6 +152,7 @@ beget.app
 beget.cloud
 beget.com
 beget.de
+beget.email
 beget.hosting
 beget.pro
 beget.tech
