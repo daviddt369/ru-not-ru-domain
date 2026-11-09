@@ -1,4 +1,4 @@
-# RU domain suffixes; source Alpaca geosite + overrides; entries=1697
+# RU domain suffixes; source Alpaca geosite + overrides; entries=1698
 1917live.red
 1prime.ru
 24h.tv
@@ -867,6 +867,7 @@ ostin.com
 ostrovok.ru
 otello.ru
 otpbank.ru
+otzovik.com
 ovcl.ru
 overclock.ru
 overclocker.ru
