@@ -1,4 +1,4 @@
-# RU domain suffixes; source Alpaca geosite + overrides; entries=1698
+# RU domain suffixes; source Alpaca geosite + overrides; entries=1699
 1917live.red
 1prime.ru
 24h.tv
@@ -713,6 +713,7 @@ medsi.com
 medsi.pro
 medsi.ru
 medtochka.ru
+megabitus.com
 megafon.com
 megamarket.tech
 megapteka.ru
