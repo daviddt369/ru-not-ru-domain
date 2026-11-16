@@ -1,4 +1,4 @@
-# RU domain suffixes; source Alpaca geosite + overrides; entries=1699
+# RU domain suffixes; source Alpaca geosite + overrides; entries=1700
 1917live.red
 1prime.ru
 24h.tv
@@ -1380,6 +1380,7 @@ veb.ru
 velberis.ru
 venets-bank.ru
 vfbank.ru
+vigo.tech
 viju.ru
 vildberis.ru
 vimu.tv
