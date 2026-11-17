@@ -1,4 +1,4 @@
-# RU domain suffixes; source Alpaca geosite + overrides; entries=1700
+# RU domain suffixes; source Alpaca geosite + overrides; entries=1701
 1917live.red
 1prime.ru
 24h.tv
@@ -1680,6 +1680,7 @@ yaplakal.com
 yaroslavl.ru
 yastat.net
 yastatic.net
+yb-payment.ru
 yclients.com
 ydb.tech
 yndx.net
