@@ -1,4 +1,4 @@
-# RU domain suffixes; source Alpaca geosite + overrides; entries=1701
+# RU domain suffixes; source Alpaca geosite + overrides; entries=1700
 1917live.red
 1prime.ru
 24h.tv
@@ -1659,7 +1659,6 @@ yandexdataschool.com
 yandexgo.com
 yandexmetrica.com
 yandexwebcache.net
-yandexwebcache.org
 yango-ads.com
 yango-b2b.com
 yango-team.com
